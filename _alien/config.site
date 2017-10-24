@@ -1,0 +1,5 @@
+CC='cc'
+CFLAGS='-arch x86_64 -arch i386 -g -pipe -fno-common -fno-strict-aliasing -fstack-protector '
+CPPFLAGS='-g -pipe -fno-common -fno-strict-aliasing -fstack-protector '
+CXXFLAGS='-arch x86_64 -arch i386 -g -pipe -fno-common -fno-strict-aliasing -fstack-protector '
+LDFLAGS='-arch x86_64 -arch i386 -fstack-protector -Wl,-headerpad_max_install_names '

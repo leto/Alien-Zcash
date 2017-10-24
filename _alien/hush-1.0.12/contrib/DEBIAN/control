@@ -1,0 +1,21 @@
+Source: hush
+Section: utils
+Priority: optional
+Maintainer: Hush Team <contact@myhush.org>
+Homepage: https://myhush.org
+Build-Depends: autoconf, automake, bsdmainutils, build-essential,
+ git, g++-multilib, libc6-dev, libtool,
+ m4, ncurses-dev, pkg-config, python,
+ unzip, wget, zlib1g-dev
+Vcs-Git: https://github.com/myhush/hush.git
+Vcs-Browser: https://github.com/myhush/hush
+
+Package: hush
+Architecture: amd64
+Depends: ${shlibs:Depends}
+Description: Hush full node.
+ Based on Bitcoin's code, it intends to offer a far higher standard
+ of privacy and anonymity through a sophisticiated zero-knowledge
+ proving scheme which preserves confidentiality of transaction metadata.
+ This package provides the daemon, hushd, and the CLI tool,
+ hush-cli, to interact with the daemon.
