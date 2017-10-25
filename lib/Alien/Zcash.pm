@@ -36,6 +36,10 @@ zcZLVdeNHvbw58ch56RWi92ws8hweLHyxhoT6jniFKd8kkBPXPR5E46YXzAqXhrfagtwRojAtumg4M3k
 
 to support this CPAN module. Thanks!
 
+=head1 SEE ALSO
+
+Alien::Hush, Hush, Zcash, Bitcoin, The Future
+
 =head1 COPYRIGHT
 
 Copyright (c) 2017 by Duke Leto <duke@leto.net>.  All rights reserved.
