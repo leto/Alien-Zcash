@@ -12,7 +12,7 @@ Alien::Zcash - Easily install Zcash cryptocoin full node
 
 This allows you to tell your favorite CPAN installer to install Zcash, via
 your local CPAN mirror. This allows Perl applications to specify that they
-depend on an external dependency, Zash, in a standard way, the Alien::*
+depend on an external dependency, Zcash, in a standard way, the Alien::*
 namespace. Most likely you will not use this module directly, you just want
 to do
 
