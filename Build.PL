@@ -19,6 +19,9 @@ my $builder          = Alien::Base::ModuleBuild->new(
   dist_version     => '0.01',
   dist_author      => 'Duke Leto <duke@leto.net>',
   alien_name       => 'zcash',
+  alien_env        => {
+      ALIEN_ZCASH  => 1,
+  },
   alien_repository => [
     {
       exact_filename => 'zcash-1.0.12.tar.gz',
